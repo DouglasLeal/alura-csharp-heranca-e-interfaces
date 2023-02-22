@@ -1,4 +1,6 @@
 ﻿using ByteBank_Adm.Models.Funcionarios;
 
 
-Console.WriteLine(f.GetBonificacao());
+var f = new Diretor("nome 1", "12345678911");
+
+Console.WriteLine(f.ToString());
